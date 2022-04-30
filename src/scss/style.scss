@@ -1,6 +1,8 @@
 @import 'bootstrap';
 @import 'components';
 
-.container {
-  padding: 0 2rem;
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0 2rem;
+  }
 }
