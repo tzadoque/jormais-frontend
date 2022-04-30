@@ -1,0 +1,93 @@
+// color variables definition
+$light-1: #fafafa;
+$light-2: #c0ccda;
+
+$gray-1: #8492a6;
+$gray-2: #707c8c;
+$gray-3: #3c4858;
+
+$light-silver: #D6D6D6;
+$old-silver: #848484;
+$pine-tree: #2e2b26;
+
+$primary-dark: #2d5e5b;
+$primary: #0b8d85;
+$primary-light: #11d9cc;
+
+$dark-1: #273444;
+$dark-2: #1f2d3d;
+$dark-3: #212626;
+
+$theme-colors: (
+  "white": #FFFFFF,
+
+  "light-1": $light-1,
+  "light-2": $light-2,
+
+  "gray-1": $gray-1,
+  "gray-2": $gray-2,
+  "gray-3": $gray-3,
+
+  "light-silver": $light-silver,
+  "old-silver": $old-silver,
+  "pine-tree": $pine-tree,
+
+  "primary-dark": $primary-dark,
+  "primary": $primary,
+  "primary-light": $primary-light,
+
+  "dark-1": $dark-1,
+  "dark-2": $dark-2,
+  "dark-3": $dark-3,
+
+  "transparent": #fff0,
+) !default;
+
+// spacers variable definition
+$spacer: 1rem;
+$awe-spacers: (
+  "awe-6": $spacer * 0.375,
+  "awe-12": $spacer * 0.75,
+  "awe-16": $spacer,
+  "awe-32": $spacer * 2,
+  "awe-40": $spacer * 2.5,
+  "awe-56": $spacer * 3.5,
+  "awe-64": $spacer * 4,
+  "awe-80": $spacer * 5,
+) !default;
+
+// font features variables definition
+$font-family-sans-serif: "Inter", sans-serif;
+
+$font-sizes: (
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  21: 21px,
+  24: 24px,
+  26: 26px,
+  44: 44px,
+);
+
+$font-families: (
+  inter: "Inter",
+  open-sans: "Open Sans",
+);
+
+$font-weight-thin:          100;
+$font-weight-extra-light:   200;
+$font-weight-light:         300;
+$font-weight-regular:       400;
+$font-weight-medium:        500;
+$font-weight-semi-bold:     600;
+$font-weight-bold:          700;
+$font-weight-extra-bold:    800;
+$font-weight-black:         900;
+
+
+//navbar
+$navbar-toggler-focus-width: 0;
+$navbar-dark-toggler-border-color: 0;
+$navbar-light-toggler-border-color: 0;
+$navbar-padding-y: 1.1rem;
