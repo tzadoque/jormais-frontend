@@ -1,0 +1,46 @@
+.post {
+  .post__title {
+    position: relative;
+    padding: 0 0 28px 0;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 163px;
+      height: 5px;
+      border-radius: 50px;
+      background: #0b8d85;
+    }
+  }
+
+  .post__content {
+    line-height: 180%;
+    color: #1f2d3d;
+    font-weight: 400;
+    
+    p {
+      margin-bottom: 40px;
+    }
+    
+    a {
+      color: #008e86;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    div.wp-caption {
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      p {
+        color: #707c8c;
+        font-size: 1rem;
+      }
+    }
+  }
+}
