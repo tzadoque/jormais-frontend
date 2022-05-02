@@ -1,3 +1,48 @@
 .filters {
   background: linear-gradient(90deg, rgba(0, 143, 136, 0.07) 0%, rgba(249, 252, 252, 0) 106.36%);
 }
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  .categories__item {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #0B8D85;
+    color: #0B8D85;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 4px 16px;
+    line-height: 160%;
+    position: relative;
+
+    &:hover, &.active {
+      background: #0B8D85;
+      color: #FFFFFF;
+
+      span {
+        color: #0B8D85;
+      }
+    }
+    
+    span {
+      background: #F9FAFC;
+      font-size: 12px;
+      font-weight: 700;
+      color: #3C4858;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 23px;
+      height: 23px;
+      border: 0.78px solid #0B8D85;
+      border-radius: 50%;
+      right: -11.5px;
+      top: -11.5px;
+    }
+  }
+}

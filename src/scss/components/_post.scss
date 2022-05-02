@@ -1,19 +1,4 @@
 .post {
-  .post__title {
-    position: relative;
-    padding: 0 0 28px 0;
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      display: block;
-      width: 163px;
-      height: 5px;
-      border-radius: 50px;
-      background: #0b8d85;
-    }
-  }
-
   .post__content {
     line-height: 180%;
     color: #1f2d3d;

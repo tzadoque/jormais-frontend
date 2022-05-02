@@ -5,6 +5,44 @@ header {
   z-index: 999;
 }
 
+.title-1 {
+  position: relative;
+  padding: 0 0 28px 0;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 163px;
+    height: 5px;
+    border-radius: 50px;
+    background: #0b8d85;
+  }
+}
+
+.search-form {
+  border: 1px solid #8492A6;
+  border-radius: 2px;
+  background: #F9FAFC;
+  padding: 12px 24px 12px 32px;
+  width: 236px;
+  display: flex;
+  input {
+    all: unset;
+    width: 100%;
+    font-size: 18px;
+    color: #273444;
+    &::placeholder {
+      color: #C0CCDA;
+    }
+  }
+  button {
+    all: unset;
+    display: flex;
+    align-items: center;
+  }
+}
+
 @media (max-width: 575.98px) {
   .container {
     padding: 0 2rem;

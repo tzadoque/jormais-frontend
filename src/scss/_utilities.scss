@@ -21,6 +21,13 @@ $utilities: (
         state: hover,
       )
     ),
+  'text-decoration':
+    map-merge(
+      map-get($utilities, 'text-decoration'),
+      (
+        state: hover,
+      )
+    ),
   'line-height': (
     property: line-height,
     values: $line-heights,

@@ -1,6 +1,8 @@
 // color variables definition
 $light-1: #fafafa;
 $light-2: #c0ccda;
+$light-3: #F9FAFC;
+$light-4: #E5E9F2;
 
 $gray-1: #8492a6;
 $gray-2: #707c8c;
@@ -25,6 +27,8 @@ $theme-colors: (
 
   "light-1": $light-1,
   "light-2": $light-2,
+  "light-3": $light-3,
+  "light-4": $light-4,
 
   "gray-1": $gray-1,
   "gray-2": $gray-2,
@@ -94,6 +98,7 @@ $font-weight-black:         900;
 
 $line-heights: (
   150: 150%,
+  160: 160%,
 );
 
 
